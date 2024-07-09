@@ -1,0 +1,47 @@
+#titulo{
+text-align: center;
+}
+body{
+background-color: rgb(237, 237, 94);
+}
+#palavra{
+    color: rgb(43, 35, 35);
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+#inicio{
+
+width: 100px;
+
+}
+#containerBarras {
+    display: flex;/*display: flex; Faz com que o contêiner #containerBarras se comporte como um contêiner flexível*/
+    flex-direction: row;/*Alinha os itens em linha*/
+    gap: 5px;/*Espaço entre os itens*/
+}
+
+.barras {
+    display: inline-block;
+    width: 40px;/* Aumenta a largura */
+    height: 40px;/* Aumenta a altura */
+    border-bottom: 4px solid black;/* Aumenta a espessura da borda inferior */
+    text-align: center;
+    font-size: 24px;/* Aumenta o tamanho da fonte */
+    line-height: 40px;/* Centraliza verticalmente o texto dentro da div */
+}
+#palavraFinal{
+
+width: 150px;    
+height: 60px;
+text-align: center;
+color: black;
+background-color: rgb(220, 220, 220);
+
+
+}
+#paragrafo{
+
+flex-direction: row;/*Alinha os itens em linha*/
+gap: 10px;/*Espaço entre os itens*/
+
+}
